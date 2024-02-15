@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marmeto Assignment</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="mainContainer">
+      <div class="productContainer">
+        <div class="productImage">
+          <img src="assets/Images/image1.jpg" alt="Product Image" id="image">
+          <div class="thumbnailsContainer">
+            <div class="thumbnails">
+                <img src="assets/Images/image1.jpg" alt="">
+                <img src="assets/Images/thumbnail1.jpg" alt="">
+                <img src="assets/Images/thumbnail2.jpg" alt="">
+                <img src="assets/Images/thumbnail3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+
+        <div class="productDetails">
+          <div class="head">
+            <h1 class="productVendor"></h1>
+            <h2 class="productTitle"></h2>
+          </div>
+          <div class="priceContainer">
+						<p class="price"></p>
+						<p class="percentageOff"></p>
+					</div>
+					<p class="compareAtPrice"></p>
+
+          <div class="colorContainer">
+            <h1 class="colorText">Choose a Color</h1>
+            <div class="cContainer">
+
+            </div>
+          </div>
+
+          <div class="sizeContainer">
+            <h1 class="colorText">Choose a Size</h1>
+            <div class="sizeSelector">
+
+            </div>
+          </div>
+
+          <div class="quantityAddToCart">
+            <div class="rectangleParent">
+				<b class="b1" onclick="decrementValue()">-</b>
+				<b class="b2" id="quantityValue">1</b>
+				<b class="b3" onclick="incrementValue()">+</b>
+			</div>
+            <button class="add-to-cart-btn" >Add to Cart</button>
+          </div>
+          <div class="productDetailsAdded">
+            <p id="addedProductDetails"></p>
+          </div>
+
+          <div class="messageContainer">
+            <p class="add-to-cart-message"></p>
+          </div>
+
+          <div class="description">
+            <p class="productDescription"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
