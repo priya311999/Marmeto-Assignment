@@ -19,3 +19,5 @@ The E-commerce Product Details Page is a user-friendly web application that dyna
 2. Open the project directory in Visual Studio Code.
 3. Install the Live Server extension if you haven't already. You can install it from the Extensions view in Visual Studio Code by searching for "Live Server" and clicking install.
 4. Once installed, right-click on the index.html file in Visual Studio Code and select "Open with Live Server"
+
+See Live: https://marmetoassignmentpriya.netlify.app
